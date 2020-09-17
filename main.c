@@ -4,14 +4,12 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	char c;
-	int i;
 	
-	printf("input a alphabet :");
-	scanf("%c", &c);
+	int a, b;
+	printf("input two integers :");
+	scanf("%d %d", &a, &b);
 	
-	i = c + 1;
-	printf("The input alphabet is %c (%d), and the next one is %c (%d)/n", c, c, c+1, c+1);
+	printf("result is %f\n", (float)a/b);
 	
 	return 0;
 }
